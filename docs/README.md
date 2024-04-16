@@ -15,7 +15,6 @@ features:
 features:
 - title: 简单实用工具
   details: 服务器自动拉取github代码编译，减少不必要的部署流程。
-  actionText: 直达
   actionText: 最新项目 →
   actionLink: /tools
 footer: Copyright © 2024-present Yun Sheng
