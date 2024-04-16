@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /hero.png
-heroText: 云生 
+heroImage: /docs/.vuepress/public/head.jpg
+heroText: YunSheng
 tagline: 归纳、管理项目文档
 actionText: 最新项目 →
 actionLink: /zh/guide/
