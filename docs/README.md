@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /head.jpg
+heroImage: /yunsheng.jpg
 heroText: YunSheng
 tagline: 归纳、管理项目文档
 actionText: 最新项目 →
@@ -12,5 +12,5 @@ features:
   details: 管理项目中的功能介绍等，多个项目组合而成的文档。
 - title: 目的
   details: 学习好玩有趣的技术
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: Copyright © 2024-present Yun Sheng
 ---
