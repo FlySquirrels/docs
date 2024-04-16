@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /docs/.vuepress/public/head.jpg
+heroImage: /head.jpg
 heroText: YunSheng
 tagline: 归纳、管理项目文档
 actionText: 最新项目 →
