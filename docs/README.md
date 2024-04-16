@@ -13,6 +13,6 @@ features:
 - title: 文档
   details: 管理项目中的功能介绍等，多个项目组合而成的文档。
 - title: 简单实用工具
-  details: 服务器自动拉取github代码编译，减少不必要的部署流程。
+  details: 自动化构建
 footer: Copyright © 2024-present Yun Sheng
 ---

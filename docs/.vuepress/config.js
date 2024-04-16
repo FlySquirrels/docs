@@ -18,9 +18,10 @@ module.exports = {
           title: '实用工具', 
           collapsable: false,
           children: [
-            {title: 'Git自动构建', path: 'Y01autobuild'},
-        ]
-      },
+            {title: '温馨提示', path: '/tools/'},
+            {title: 'Git自动构建', path: '/tools/Y01autobuild'},
+          ]
+        },
       ],
       '/':[''],
     }
