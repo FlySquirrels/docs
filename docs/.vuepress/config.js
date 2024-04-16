@@ -20,7 +20,7 @@ module.exports = {
         title: '实用工具',
         collapsable: false,
         children:[
-          {title: '自动构建项目',path:'/tools/autobuild01'}
+          {title: '自动构建项目',path:'/tools/Y01autobuild'}
         ]
       }
     ]
