@@ -3,26 +3,26 @@ module.exports = {
   description: '月下飞天镜，云生结海楼。',
   head:[
     [
-      'link',
-      {
-        rel:'icon',
-        href:'/favicon.ico'
-      }
+      'link', {rel:'icon', href:'/favicon.ico'}
     ]
   ],
-  nav: [
-    {text:'主页', link:'/'},
-    {text:'实用工具', link:'/tools'} 
-  ],
-  sidebar: {
-    '/tools/':[
-      {
-        title: '实用工具',
-        collapsable: false,
-        children:[
-          {title: '自动构建项目',path:'/tools/Y01autobuild'}
+  themeConfig: {
+    nav: [
+      { text: '主页', link: '/' },
+      { text: '实用工具', link: '/tools/' },
+      { text: 'GitHub', link: 'https://github.com/FlySquirrels/docs',target:'_blank' }
+    ],
+    sidebar: {
+      '/tools/': [
+        {
+          title: '实用工具', 
+          collapsable: false,
+          children: [
+            {title: 'Git自动构建', path: 'Y01autobuild'},
         ]
-      }
-    ]
-  }
+      },
+      ],
+      '/':[''],
+    }
+  },
 }
