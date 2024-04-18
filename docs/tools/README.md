@@ -5,6 +5,6 @@
 所以当环境不同时，建议结合环境做出修改。
 :::
 ::: tip
-如果对你有用请点个Star :star:<br />
+如果对你有用请点个Star :star::star::star:<br />
 现在选择感兴趣的部分吧 :rocket: :rocket: :rocket:
 :::

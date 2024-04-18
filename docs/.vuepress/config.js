@@ -20,6 +20,7 @@ module.exports = {
           children: [
             {title: '温馨提示', path: '/tools/'},
             {title: 'Git自动构建', path: '/tools/Y01autobuild'},
+            {title: '服务器流量监控', path: '/tools/Y02autoclose'},
           ]
         },
       ],

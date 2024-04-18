@@ -13,7 +13,8 @@
    - node项目创建
    - github远程仓库创建
    - ngix配置读取node打包的dist文件夹
-编写自动化脚本
+   
+编写自动化脚本:clipboard::clipboard::clipboard:
    ```shell
          #!/bin/bash
          #该脚本请求版本是否更新，如果更新项目拉取编译
