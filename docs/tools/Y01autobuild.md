@@ -39,6 +39,10 @@
 
          # 如果当前提交的哈希值与上次提交的哈希值不同，则执行以下操作
          if [ "$CURRENT_COMMIT" != "$LAST_COMMIT" ]; then
+
+            # 防止本地仓库的未知更改阻塞更新
+            git checkout .
+
             # 更新本地仓库
             git pull origin master
 
@@ -78,6 +82,9 @@
 
       # 如果当前提交的哈希值与上次提交的哈希值不同，则执行以下操作
       if [ "$CURRENT_COMMIT" != "$LAST_COMMIT" ]; then
+
+         # 防止本地仓库的未知更改阻塞更新
+         git checkout .
 
          # 更新本地仓库
          git pull origin master
