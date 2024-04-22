@@ -14,6 +14,7 @@ module.exports = {
       { text: '主页', link: '/' },
       { text: '实用工具', link: '/tools/' },
       { text: '云界游戏文档', link: '/onliegame/' },
+      { text: '网络直播文档', link: '/webcast/' },
       { text: 'GitHub', link: 'https://github.com/FlySquirrels/docs',target:'_blank' }
     ],
     sidebar: {
@@ -28,6 +29,15 @@ module.exports = {
             {title: '登录业务', path: '/onliegame/Y01login'},
             {title: '房间业务', path: '/onliegame/Y02room'},
             {title: '项目展示', path: '/onliegame/Y03display'},
+          ]
+        },
+      ],
+      '/webcast/': [
+        {
+          title: '直播项目文档', 
+          collapsable: false,
+          children: [
+            {title: '简要', path: '/onliegame/'}
           ]
         },
       ],
