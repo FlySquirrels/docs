@@ -27,6 +27,7 @@ module.exports = {
             {title: 'Java核心类', path: '/onliegame/core/Y01corejava'},
             {title: '登录业务', path: '/onliegame/Y01login'},
             {title: '房间业务', path: '/onliegame/Y02room'},
+            {title: '项目展示', path: '/onliegame/Y03display'},
           ]
         },
       ],
