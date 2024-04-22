@@ -1,7 +1,9 @@
 # <center> :maple_leaf:云界:maple_leaf: </center>
-:evergreen_tree:史书上的寥寥几笔便是他们波澜壮阔的一生。
-将这几笔勾勒出来，就是本项目的使命。
-
+:evergreen_tree:[项目地址]()
+## 实现功能
+登录
+房间
+状态同步
 ## 项目架构
 :tomato:使用TCP进行连接
 
