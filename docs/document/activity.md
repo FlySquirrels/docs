@@ -4,8 +4,9 @@
 	使用JDK17，MySQL5，SpringBoot3，Activity7，MyBatisFlex，log4j
 	本项目踩坑如下:
 		使用了mybatisflex，但activityEngine里自带mybatis，需要排除
-	文档纠错邮箱: squirrelsflying@163.com
+	
 :::
+<a href="mailto:squirrelsflying@163.com">文档纠错邮箱: squirrelsflying@163.com</a>
 [项目Demo地址](https://gitee.com/fufuandrice/flowable)
 ## 项目准备
 Maven依赖导入
