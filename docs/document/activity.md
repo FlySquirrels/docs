@@ -7,6 +7,7 @@
 	
 :::
 <a href="mailto:squirrelsflying@163.com">文档纠错邮箱: squirrelsflying@163.com</a>
+
 [项目Demo地址](https://gitee.com/fufuandrice/flowable)
 ## 项目准备
 Maven依赖导入
