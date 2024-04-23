@@ -11,7 +11,7 @@ features:
 - title: buzz
   details: 中文翻译:"发出嗡嗡声",原来云朵里面还盛产小蜜蜂。本意是域名实惠。
 - title: 文档
-  details: 管理项目中的功能介绍等，多个项目组合而成的文档。
+  details: 管理项目中的功能介绍等，多个项目组合而成的文档。文档纠错邮箱 squirrelsflying@163.com
 - title: 简单实用工具
   details: 使用shell实现自动化
 - title: 在线游戏文档

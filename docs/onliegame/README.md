@@ -10,4 +10,4 @@
 :tomato:使用使用\n解决粘包问题
 
 :tomato:使用protobuf来进行不同语言的交互
-![项目网络架构](/img/web.png)
+![项目网络架构](/img/onlinegame/web.png)
