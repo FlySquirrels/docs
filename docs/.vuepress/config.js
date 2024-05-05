@@ -37,7 +37,8 @@ module.exports = {
           title: '学习笔记', 
           collapsable: false,
           children: [
-            {title: '有趣算法', path: '/document/algorithm'}
+            {title: '有趣算法', path: '/document/algorithm'},
+            {title: 'rust基础', path: '/document/rust'}
           ]
         },
       ],
