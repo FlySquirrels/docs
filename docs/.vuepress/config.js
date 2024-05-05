@@ -14,7 +14,7 @@ module.exports = {
       { text: '主页', link: '/' },
       { text: '实用工具', link: '/tools/' },
       { text: '云界游戏文档', link: '/onliegame/' },
-      { text: '学习文档', link: '/document/k8s' },
+      { text: '学习文档', link: '/document/algorithm' },
       { text: 'GitHub', link: 'https://github.com/FlySquirrels/docs',target:'_blank' }
     ],
     sidebar: {
@@ -37,7 +37,7 @@ module.exports = {
           title: '学习笔记', 
           collapsable: false,
           children: [
-            {title: 'Activity工作流', path: '/document/k8s'}
+            {title: '有趣算法', path: '/document/algorithm'}
           ]
         },
       ],
