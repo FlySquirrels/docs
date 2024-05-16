@@ -1,7 +1,7 @@
 module.exports = {
   title: 'yunsheng',
   description: '月下飞天镜，云生结海楼。',
-  base:'./',
+  base:'/doc/',
   head:[
     [
       'link', {rel:'icon', href:'/favicon.ico'}
