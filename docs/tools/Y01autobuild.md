@@ -110,3 +110,16 @@
  - 另一台主机提交后，脚本更新本地仓库可能编译不通过，建议本地环境测试通过后提交
  - 脚本偶尔异常退出，未知原因
 :::
+
+## 坑点: 
+ 触发原因: 由于一个服务器部署多个项目，不适用域名作为入口，设置config的base:'/doc/'
+ nginx 配置 /doc 导致数据访问不到
+ 更正
+  ```
+   # 设置 location
+        location /doc/ {
+			alias /www/yunsheng/docs/.vuepress/dist/;
+            index index.html;
+			try_files $uri $uri/ index.html;
+        }
+   ```
