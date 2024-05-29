@@ -14,7 +14,6 @@ module.exports = {
     nav: [
       { text: '主页', link: '/' },
       { text: '实用工具', link: '/tools/' },
-      { text: 'Java技术栈', link: '/java/' },
       { text: '云界游戏文档', link: '/onliegame/' },
       { text: '学习文档', link: '/document/rust' },
       { text: 'GitHub', link: 'https://github.com/FlySquirrels/docs',target:'_blank' }
@@ -39,15 +38,7 @@ module.exports = {
           title: '学习笔记', 
           collapsable: false,
           children: [
-            {title: 'rust基础', path: '/document/rust'}
-          ]
-        },
-      ],
-      '/java/': [
-        {
-          title: '常用技术', 
-          collapsable: false,
-          children: [
+            {title: 'rust基础', path: '/document/rust'},
             {title: 'Log4j2', path: '/java/log4j2'}
           ]
         },
