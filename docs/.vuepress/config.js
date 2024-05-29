@@ -39,7 +39,7 @@ module.exports = {
           collapsable: false,
           children: [
             {title: 'rust基础', path: '/document/rust'},
-            {title: 'Log4j2', path: '/java/log4j2'}
+            {title: 'Log4j2', path: '/document/log4j2'}
           ]
         },
       ],
